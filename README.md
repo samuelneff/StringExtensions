@@ -5,7 +5,7 @@ Overloads of `Enumerable` extension methods specifically optimized for use on st
 
 The new optimized extension methods are added to the existing `System.Linq` namespace, so all you need to do to take advantage of these methods is reference the dll. The compiler will recognize that more specific methods are available and will use them in place of `Enumerable.Xxx` as appropriate. All implementations are drop-in replacements for their corresponding `Enumerable` methods and are tested to provide the same results given the same inputs. The included project includes 3,000+ unit tests verifying output from `StringExtensions` matches output `Enumerable`, in a variety of languages, character sets, and intermixing empty and null strings.
 
-The following methods are optized:
+The following methods are optimized:
 ----------------------------------
 
 ```c#
